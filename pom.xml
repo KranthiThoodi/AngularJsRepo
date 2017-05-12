@@ -28,7 +28,10 @@
 			<artifactId>jersey-json</artifactId>
 			<version>${jersey.version}</version>
 		</dependency>
-
+                <INSTANCE_CONNECTION_NAME></INSTANCE_CONNECTION_NAME>
+                <user>root</user>
+                <password>Abc1234</password>
+                <database>firstgcpdb</database>
 		<dependency>
 			<groupId>commons-logging</groupId>
 			<artifactId>commons-logging</artifactId>
